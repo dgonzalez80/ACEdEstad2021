@@ -2,7 +2,7 @@
 title: "Introducción a R "
 subtitle: "Aplicaciones a la enseñanza de la Estadística"
 author: "IV - Encuentro Colombiano de Educación Estadística "
-institute: "Daniel Enrique González Gómez"
+institute: "ACEdEst"
 date: "2021-05-31"
 output:
     xaringan::moon_reader:
@@ -96,7 +96,11 @@ xaringanExtra::use_panelset()
     ]  
 .panel[.panel-name[Enseñanza]
 ### Una metodología de enseñanza-aprendizaje definida y clara
-<img src="img/aulainvertida.jpeg" width="600">
+
+<img src="img/aulainvertida.jpeg" width="500">
+
+* https://medium.com/@gabriela.solera05/el-aula-invertida-en-ingl%C3%A9s-flipped-classroom-es-una-modalidad-de-blended-learning-aprendizaje-86170628d95b  
+
 ]  
 .panel[.panel-name[Met.Estadistica]
 <html>
@@ -282,10 +286,10 @@ fx(100)
 ---
 # Actividad 
 
-Instalación de R y RStudio** : 
+**Instalación de R y RStudio** : 
 + [\href{https://www.r-project.org/](R CRAN) 
 
-+[https://rstudio.com/products/rstudio/download/](RStudio).
++ [https://rstudio.com/products/rstudio/download/](RStudio).
 
 ---
 ## Créditos
