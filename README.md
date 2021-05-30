@@ -2,5 +2,5 @@
 IV Encuentro Colombiano de de Educación Estadistica 2021
 
 RStudio
-Introducción a R conaplicaciones en la educación
+Introducción a R con aplicaciones en la educación
 
