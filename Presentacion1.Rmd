@@ -1,7 +1,7 @@
 ---
 title: "Introducción a R "
 subtitle: "Aplicaciones a la enseñanza de la Estadística"
-author: "IV - Encuentro Colombiano de Educación Estadística "
+author: "IV - Encuentro Colombiano de Educación Estocástica"
 institute: "ACEdEst"
 date: "2021-05-31"
 output:
@@ -27,7 +27,7 @@ class: center
 .pull-left[ 
 # IV - Encuentro 
 # Colombiano de 
-# Educación Estadística </p>
+# Educación Estocástica </p>
 <img src="img/ACEdEstad.jpeg" width="350">
 ]
 .pull-right[
@@ -48,10 +48,6 @@ class: center
 <img src="img/unicauca.png" width="60">
 <img src="img/amazonia.png" width="100">
 ]
----
-### Quienes somos
-
-
 ---
 # Agenda
 
@@ -129,7 +125,7 @@ xaringanExtra::use_panelset()
 
    + Lenguaje multiparadigma
    
-   + Codigo construido en C y Fortran
+   + Código construido en C y Fortran
    
    + Gran comunidad muy activa 
    
@@ -191,6 +187,8 @@ https://www.rstudio.com/products/rstudio/download/
 **Descargar e instalar R y RStudio**
 
 https://www.youtube.com/watch?v=Nmu4WPdJBRo
+
+Rafa Gonzalez
 
 ---
 ## Ayuda
@@ -286,7 +284,7 @@ fx(100)
 ---
 # Actividad 
 
-**Instalación de R y RStudio** : 
+### **Instalación de R y RStudio** : 
 + [\href{https://www.r-project.org/](R CRAN) 
 
 + [https://rstudio.com/products/rstudio/download/](RStudio).
