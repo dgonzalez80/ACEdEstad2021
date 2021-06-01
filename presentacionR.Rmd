@@ -1,0 +1,85 @@
+---
+title: "Introducción a R "
+subtitle: "Aplicaciones a la enseñanza de la Estadística"
+author: "IV - Encuentro Colombiano de Educación Estocástica "
+institute: "ACEdEst"
+date: "2021-06-01"
+output:
+    xaringan::moon_reader:
+      css: ["default","ki-fonts","duke-blue"]
+      nature:
+        highighStyle: github
+        highlighLine: true
+        countIncrementalSlides : true
+        ratio: '16:9'
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+---
+### Resumen
+.pull-left[ 
+
++ **Instalar R y RStudio**
+
++ **Variable**:  
+    + id,cc, telefono, email, nombre, 
+    + edad, talla, nacionalidad    
+
++ **Tipos de variables**
+    
+    + Cualitativas
+        + Escala nominal  : table(x)  pie(table(x)) 
+        + Escala ordianal : table(x)  barplot(table(x))
+    
+    + Cuantitavas : 
+        + hist(x), 
+        + boxplot(x), 
+        + plot(x,y), 
+        + density(x)
+  
+]
+
+.pull-right[
+
++ **Tipo de objetos**
+    
+    + Vectores  : x = c(1,2,3,4,5,6)
+    
+    + Matrices  : m = matrix(1:9, nrow=3)
+    
+    + Array : a = array(1:27, dim=c(3,3,3))
+    
+    + Factor: f = c("A","A","B","B", "C","C")
+    
+    + Listas : l=list(x,m,a,f)
+    
+    + Funciones: fx=function(x){(x^3+x^2-2*x+8)}
+          +   fx(3)
+]
+
+---
+### Importar datos
+
++ **Dataset de R** : data(iris) , data(cars)
+
++ **Importar datos en DD** 
+    + library(xlsx)
+    + data=read.xlsx("mibase.xlsx")
+        
+    + data=read.csv("mibase.csv")     
+
+    + library(foreign)
+    +  data=read.dta("midata.dta")
+
++ **De manera automatica**
+    +  library(RSocrata)
+    + token ="ew2rEMuESuzWPqMkyPfOSGJgE"
+        + data=read.socrata("https://www.datos.gov.co/resource/gt2j-8ykr.json", app_token = token))
+---
+class: inverse, center
+
+<img src="img/VRStudio.png" width="1250">
+
+
