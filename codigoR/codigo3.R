@@ -5,7 +5,7 @@ sum(1:100)
 x=c(1,2,3,4,5,6,7,8,9,NA)
 sum(x)
 sum(x,na.rm = T)
-cumsum(x[!is.na(x)])
+cumsum(x[!is.na(x)])  # suma acumulada
 
 # Tecnicas de conteo
 C=function(n,k){choose(n,k)}
@@ -119,7 +119,7 @@ t=seq(0,1,by=0.01)
 x=c(0,t,1)
 y=c(0,f(t),0)
 polygon(x,y,density=30, col="#8080FF99") # pinta área sombreada
-p=integrate(f,0,1)
+p=integrate(f,0,2)
 p$value # resultado
 #------------------------------------------------------------------------
 # Ingeral doble
@@ -131,6 +131,7 @@ adaptIntegrate(f,lowerLimit=c(0,0),
 # Integracion triple
 library(cubature)
 f=function(x){2/3*(x[1]+x[2]+x[3])}
+
 adaptIntegrate(f,lowerLimit=c(0,0,0),
                upperLimit=c(0.5,0.5,0.5))
 #-------------------------------------------------------------------------
@@ -141,6 +142,8 @@ library(stringr)
 # https://www.datos.gov.co/Educaci-n/Tasa-Repitencia-Educacion/3gm7-ubmj
 
 token ="ew2rEMuESuzWPqMkyPfOSGJgE"
+
+sabar11=read.socrata("https://www.datos.gov.co/resource/rnvb-vnyh.json", app_token = token)
 # Repitencia= read.socrata("https://www.datos.gov.co/resource/3gm7-ubmj.json", app_token = token)
 # Colombia= read.socrata("https://www.datos.gov.co/resource/gt2j-8ykr.json", app_token = token)
 Colombia$sexo=str_to_lower(Colombia$sexo)

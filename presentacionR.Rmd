@@ -13,10 +13,26 @@ output:
         countIncrementalSlides : true
         ratio: '16:9'
 ---
+### Instalación R y RStudio
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+.pull-left[ 
+<img src="img/R.jpeg" width="100">
+
+https://www.r-project.org/
+]
+
+.pull-right[
+<img src="img/RStudio.jpeg" width="100">
+
+https://www.rstudio.com/products/rstudio/download/
+]
+
+**Descargar e instalar R y RStudio**
+
+https://www.youtube.com/watch?v=Nmu4WPdJBRo
+
+Rafa Gonzalez
+
 ---
 ### Resumen
 .pull-left[ 
@@ -81,5 +97,44 @@ options(htmltools.dir.version = FALSE)
 class: inverse, center
 
 <img src="img/VRStudio.png" width="1250">
+
+---
+
+### R online
++ rdrr.io
+  + https://rdrr.io/snippets/
+
++ codingground
+  + https://www.tutorialspoint.com/execute_r_online.php
+
++ RStudio  Cloud
+  + https://rstudio.cloud/project/577815
+
++ myCompiler
++ https://www.mycompiler.io/new/r
+
+---
+### RStudio portable
+
+https://support.rstudio.com/hc/en-us/articles/200534467-Creating-a-Portable-Version-of-RStudio-for-a-USB-Drive
+
+## R
+https://www.r-project.org/
+
+## RStudio
+https://www.rstudio.com/products/rstudio/download/#download
+
+---
+class: inverse, center, middle
+
+
+# Daniel Enrique Gonzalez Gomez 
+### dgonzalez@javerianacali.edu.co
+dgonzalez80@gmail.com 
+https://github.com/dgonzalez80
+
+
+
+
 
 
